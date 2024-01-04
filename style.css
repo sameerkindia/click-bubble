@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  border: 2px solid white;
+  transform: translate(-50%, -50%);
+}
+
+div {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red; /* Customize the background color */
+  border-radius: 50%;
+  border: 2px solid white;
+  pointer-events: none; /* Allow interaction with elements behind the pointer */
+  /* transform: translate(-50%, 50%); */
+}
