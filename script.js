@@ -25,7 +25,7 @@ document.addEventListener("mousemove", (event) => {
   const x = event.clientX;
   const y = event.clientY;
 
-  customPointer.style.transform = `translate(${x}px, ${y / 2}px)`;
+  customPointer.style.transform = `translate(${x}px, ${y}px)`;
   customPointer.style.height = height;
   customPointer.style.width = height;
   customPointer.style.backgroundColor = color;
