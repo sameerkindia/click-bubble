@@ -28,4 +28,5 @@ div {
   border: 2px solid white;
   pointer-events: none; /* Allow interaction with elements behind the pointer */
   /* transform: translate(-50%, 50%); */
+  z-index: 9999;
 }
